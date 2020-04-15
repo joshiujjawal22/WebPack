@@ -21,6 +21,11 @@ module.exports = {
         template: "./src/client/views/index.html",
         filename: "./index.html",
     })
-    ]
+    ],
+    // To change the Web-dev default server(8080)
+    devServer: {
+    hot: true,
+    port: 9000
+}
 
 }

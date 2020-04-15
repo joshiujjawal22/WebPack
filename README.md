@@ -12,5 +12,6 @@ git clone -- git@github.com:[your-user-name]/Webpack.git --
 
 `cd` into your new folder and run:
 - ```npm install```
-- ```npm start``` to start the app
-- this app runs on localhost:3000, but you can of course edit that in server.js
+- ```npm run build-dev``` to start the app
+- this app runs on localhost:8080(By default server of webpack-dev-server), but you can of course edit that in webpack.dev.js
+- I have already edited it to localhost:9000
